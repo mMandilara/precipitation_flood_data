@@ -164,6 +164,9 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+# VSCode project settings
+.vscode/
+
 # mkdocs documentation
 /site
 
@@ -216,3 +219,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# downloaded datasets
+/floods_datasets/
+
+#processed data
+cds_csvdata_exported/
+
+# basin data
+/hybas_*/
+
+# river data
+/HydroRIVERS_v10_*/
+
+# data (zip and CSV files)
+/miroc_*
+/mohc_*
+/pr_EUR*
+
+# regressor script
+/rfRegressor.py
