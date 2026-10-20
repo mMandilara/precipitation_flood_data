@@ -39,7 +39,7 @@ This repository is for downloading precipitation data and creating a dataset in 
      
 2. Run `rfRegressor.py`
 
-## C. Create future datasets with future rainfall
+## C. Create future datasets with predicted rainfall
 1. Run `timeseries_create_points.py` - select the desired port, RCM: Creates random points based on *local* shapefile of the port and most of the data needed for `create_dataset`: elevation, slope, lulc, drainage density, precipitation
 2. Run `timeseries_inference.py` - select the desired port, RCM: Exports csv files and matching TIF images.
 
