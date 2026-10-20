@@ -1,4 +1,4 @@
-# precipitation_flood_-random_forest_regression
+# precipitation_flood_data
 This repository is for downloading precipitation data and creating a dataset in the final form of CSV for regression (such as scikit-learn Random Forest regression)
 
 # Create flood maps based on precipitation (projection data)
